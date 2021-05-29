@@ -1,5 +1,5 @@
 # Just run this in your terminal (crl+alt+t)
-# $ wget "https://raw.githubusercontent.com/nadimnesar/Fun-With-Linux/master/nadimnesar-ubuntu.sh" && bash nadimnesar-ubuntu.sh
+# $ wget https://raw.githubusercontent.com/nadimnesar/Fun-With-Linux/master/nadimnesar-ubuntu.sh && bash nadimnesar-ubuntu.sh
 
 #!/bin/bash
 
