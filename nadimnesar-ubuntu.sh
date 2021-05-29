@@ -52,7 +52,7 @@ sudo apt install -y sublime-text
 sudo snap install intellij-idea-ultimate --classic
 sudo snap install pycharm-professional --classic
 sudo apt install -y stacer
-sudo apt install vlc
+sudo apt install -y vlc
 echo -e "\n"
 
 tput setaf 2;
