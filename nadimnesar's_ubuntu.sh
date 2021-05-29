@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 echo "This is only for nadimnesar ubuntu 20.4 LTS environment setup."
 echo "If you want you can use, but it's made by author choices."
