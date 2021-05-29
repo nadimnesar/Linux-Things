@@ -51,3 +51,25 @@ sudo snap install intellij-idea-ultimate --classic
 sudo snap install pycharm-professional --classic
 sudo apt install stacer
 sudo snap install vlc
+
+
+
+
+tput setaf 2;
+echo "Again updaing...."
+tput sgr0;
+sudo apt update
+sudo apt upgrade
+sudo apt dist-upgrade
+
+tput setaf 2;
+echo "Cleaning...."
+tput sgr0;
+sudo apt-get autoremove
+sudo apt-get clean
+echo -e "\n"
+
+tput setaf 2;
+echo "Thanks for use. Follow me on github."
+tput sgr0;
+exit
