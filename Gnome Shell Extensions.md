@@ -1,5 +1,5 @@
-User Themes - https://extensions.gnome.org/extension/19/user-themes/
-Places Status Indicator - https://extensions.gnome.org/extension/8/places-status-indicator/
+# User Themes - https://extensions.gnome.org/extension/19/user-themes/
+# Places Status Indicator - https://extensions.gnome.org/extension/8/places-status-indicator/
 Workspace indicator - https://extensions.gnome.org/extension/3952/workspace-indicator/
 Clipboard Indicator - https://extensions.gnome.org/extension/779/clipboard-indicator/
 Colored AppMenu Icon - https://extensions.gnome.org/extension/3712/color-app-menu-icon/
