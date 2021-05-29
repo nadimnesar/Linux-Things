@@ -39,21 +39,20 @@ tput setaf 2;
 echo "Installing fev applications...."
 tput sgr0;
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo apt install -y ./google-chrome-stable_current_amd64.deb
 sudo apt update
-sudo snap install -y telegram-desktop
+sudo snap install telegram-desktop
 sudo apt update
-sudo snap install -y discord
+sudo snap install discord
 sudo apt update
 sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
 curl -fsSL https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
-sudo add-apt-repository "deb https://download.sublimetext.com/ apt/stable/" -y
+sudo add-apt-repository "deb https://download.sublimetext.com/ apt/stable/"
 sudo apt update
 sudo apt install -y sublime-text
-sudo snap install -y intellij-idea-ultimate --classic
-sudo snap install -y pycharm-professional --classic
+sudo snap install intellij-idea-ultimate --classic
+sudo snap install pycharm-professional --classic
 sudo apt install -y stacer
-sudo snap install -y vlc
+sudo apt install vlc
 echo -e "\n"
 
 tput setaf 2;
