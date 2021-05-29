@@ -64,6 +64,13 @@ sudo apt-get install manpages-dev
 echo -e "\n"
 
 tput setaf 2;
+echo "Installing Python...."
+tput sgr0;
+sudo apt update
+sudo apt install -y python3 python2
+echo -e "\n"
+
+tput setaf 2;
 echo "Again updaing...."
 tput sgr0;
 sudo apt update
