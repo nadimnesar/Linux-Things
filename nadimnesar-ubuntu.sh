@@ -56,6 +56,14 @@ sudo apt install -y vlc
 echo -e "\n"
 
 tput setaf 2;
+echo "Installing GCC...."
+tput sgr0;
+sudo apt update
+sudo apt install build-essential
+sudo apt-get install manpages-dev
+echo -e "\n"
+
+tput setaf 2;
 echo "Again updaing...."
 tput sgr0;
 sudo apt update
