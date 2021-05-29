@@ -19,41 +19,38 @@ echo -e "\n"
 tput setaf 2;
 echo "Installing restricted extra media codecs...."
 tput sgr0;
-sudo apt install ubuntu-restricted-extras
+sudo apt install -y ubuntu-restricted-extras
 
 tput setaf 2;
 echo "Installing preload...."
 tput sgr0;
-sudo apt install preload
+sudo apt install -y preload
 
 tput setaf 2;
 echo "Installing gnome tweak...."
 tput sgr0;
-sudo apt install gnome-tweak-tool
-sudo apt install gnome-shell-extensions
+sudo apt install -y gnome-tweak-tool
+sudo apt install -y gnome-shell-extensions
 
 tput setaf 2;
 echo "Installing fev applications...."
 tput sgr0;
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo apt install ./google-chrome-stable_current_amd64.deb
+sudo apt install -y ./google-chrome-stable_current_amd64.deb
 sudo apt update
-sudo snap install telegram-desktop
+sudo snap install -y telegram-desktop
 sudo apt update
-sudo snap install discord
+sudo snap install -y discord
 sudo apt update
-sudo apt install apt-transport-https ca-certificates curl software-properties-common
+sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
 curl -fsSL https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
-sudo add-apt-repository "deb https://download.sublimetext.com/ apt/stable/"
+sudo add-apt-repository "deb https://download.sublimetext.com/ apt/stable/" -y
 sudo apt update
-sudo apt install sublime-text
-sudo snap install intellij-idea-ultimate --classic
-sudo snap install pycharm-professional --classic
-sudo apt install stacer
-sudo snap install vlc
-
-
-
+sudo apt install -y sublime-text
+sudo snap install -y intellij-idea-ultimate --classic
+sudo snap install -y pycharm-professional --classic
+sudo apt install -y stacer
+sudo snap install -y vlc
 
 tput setaf 2;
 echo "Again updaing...."
