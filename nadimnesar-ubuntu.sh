@@ -71,7 +71,7 @@ sudo apt-get clean
 echo -e "\n"
 
 tput setaf 2;
-echo "Thanks for use. Follow me on github."
+echo "Thanks for use. Follow me on github (https://github.com/nadimnesar)."
 tput sgr0;
 echo -e "\n"
 exit
