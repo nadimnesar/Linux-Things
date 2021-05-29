@@ -20,17 +20,20 @@ tput setaf 2;
 echo "Installing restricted extra media codecs...."
 tput sgr0;
 sudo apt install -y ubuntu-restricted-extras
+echo -e "\n"
 
 tput setaf 2;
 echo "Installing preload...."
 tput sgr0;
 sudo apt install -y preload
+echo -e "\n"
 
 tput setaf 2;
 echo "Installing gnome tweak...."
 tput sgr0;
 sudo apt install -y gnome-tweak-tool
 sudo apt install -y gnome-shell-extensions
+echo -e "\n"
 
 tput setaf 2;
 echo "Installing fev applications...."
@@ -51,6 +54,7 @@ sudo snap install -y intellij-idea-ultimate --classic
 sudo snap install -y pycharm-professional --classic
 sudo apt install -y stacer
 sudo snap install -y vlc
+echo -e "\n"
 
 tput setaf 2;
 echo "Again updaing...."
@@ -58,6 +62,7 @@ tput sgr0;
 sudo apt update
 sudo apt upgrade
 sudo apt dist-upgrade
+echo -e "\n"
 
 tput setaf 2;
 echo "Cleaning...."
@@ -69,4 +74,5 @@ echo -e "\n"
 tput setaf 2;
 echo "Thanks for use. Follow me on github."
 tput sgr0;
+echo -e "\n"
 exit
