@@ -5,6 +5,7 @@ echo "If you want you can use, but it's made by author choices."
 echo "Let's start...."
 echo -e "\n"
 
-echo "Uninstalling unnecessary applications...."
-sudo apt-get purge thunderbird
-sudo apt-get purge --auto-remove thunderbird
+echo "Updaing...."
+sudo apt update
+sudo apt upgrade
+sudo apt dist-upgrade
