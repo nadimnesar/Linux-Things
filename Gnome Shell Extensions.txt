@@ -6,4 +6,4 @@ Dynamic Panel Transparency - https://extensions.gnome.org/extension/1011/dynamic
 NetSpeed - https://extensions.gnome.org/extension/104/netspeed/
 Screenshot Tool - https://extensions.gnome.org/extension/1112/screenshot-tool/
 Sound Input & Output Device Chooser - https://extensions.gnome.org/extension/906/sound-output-device-chooser/
-OpenWeather - https://extensions.gnome.org/extension/750/openweather/https://github.com/nadimnesar/Fun-With-Linux/blob/main/Gnome%20Shell%20Extensions.txt
+OpenWeather - https://extensions.gnome.org/extension/750/openweather/
