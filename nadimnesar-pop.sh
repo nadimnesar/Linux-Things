@@ -23,8 +23,6 @@ sudo apt install -y sublime-text
 sudo snap install intellij-idea-ultimate --classic
 sudo apt install -y stacer
 sudo apt install -y vlc
-sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable
-sudo apt install qbittorrent
 
 sudo apt update
 sudo apt install -y build-essential
