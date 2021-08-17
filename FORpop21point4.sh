@@ -9,6 +9,7 @@ sudo apt dist-upgrade
 
 sudo apt update
 sudo apt install snapd
+sudo apt install flatpak
 
 sudo apt install -y gnome-tweak-tool
 sudo apt install -y gnome-shell-extensions
